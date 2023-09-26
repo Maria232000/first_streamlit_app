@@ -1,7 +1,9 @@
 import streamlit
 streamlit.title('My Parents new Healthy Diner')
 import streamlit
-streamlit.title('Breakfast Menu')
+streamlit.header('Breakfast Menu')
 import streamlit
-streamlit.markdown('Omega 3 & Blueberry oatmeal')
-streamlit.markdown('kale,Spinach,Carrot Smoothie')
+streamlit.text('Omega 3 & Blueberry oatmeal')
+streamlit.text('kale,Spinach,Carrot Smoothie')
+streamlit.text('kale,Spinach,Carrot Smoothie')
+streamlit.text('Hard Boiled Free Ranged Egg')
