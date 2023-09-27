@@ -67,7 +67,7 @@ try:
 
 # write your own comment - what does this do?
 
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice)
 
 
 
