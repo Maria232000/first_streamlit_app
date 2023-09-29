@@ -70,7 +70,7 @@ if streamlit.button('Add a fruit to the list'):
 #don't run anything past here while we troubleshoot
 # streamlit.stop();
 if streamlit.button('Get Fruit List'):
-                         my_cnx=snowflake.connector.connect(***streamlit.secrets["snowflake"])
+                         my_cnx=snowflake.connector.connect(**streamlit.secrets["snowflake"])
                          my_data_rows=get_fruit_load_list()
                          my_cnx.close()
                          streamlit.dataframe(my_data_rows)
